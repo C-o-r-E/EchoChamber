@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046627D616A7597A0030BF07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046627D516A7597A0030BF07 /* AudioToolbox.framework */; };
 		04716A1916A5E8830026ACAC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04716A1816A5E8830026ACAC /* main.c */; };
 		04716A1B16A5E8830026ACAC /* EchoChamber.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04716A1A16A5E8830026ACAC /* EchoChamber.1 */; };
 		04716A2616A5EC930026ACAC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04716A2516A5EC930026ACAC /* CoreFoundation.framework */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		046627D516A7597A0030BF07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		04716A1416A5E8830026ACAC /* EchoChamber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EchoChamber; sourceTree = BUILT_PRODUCTS_DIR; };
 		04716A1816A5E8830026ACAC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04716A1A16A5E8830026ACAC /* EchoChamber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EchoChamber.1; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046627D616A7597A0030BF07 /* AudioToolbox.framework in Frameworks */,
 				04716A2816A5EC9C0026ACAC /* CoreAudio.framework in Frameworks */,
 				04716A2616A5EC930026ACAC /* CoreFoundation.framework in Frameworks */,
 			);
@@ -50,6 +53,7 @@
 		04716A0916A5E8830026ACAC = {
 			isa = PBXGroup;
 			children = (
+				046627D516A7597A0030BF07 /* AudioToolbox.framework */,
 				04716A2716A5EC9C0026ACAC /* CoreAudio.framework */,
 				04716A2516A5EC930026ACAC /* CoreFoundation.framework */,
 				04716A1716A5E8830026ACAC /* EchoChamber */,
@@ -216,6 +220,7 @@
 				04716A2016A5E8830026ACAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
